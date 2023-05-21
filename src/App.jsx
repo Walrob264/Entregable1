@@ -13,7 +13,7 @@ function App() {
   const [pathRandom, setPathRandom] = useState(initialPath);
 
   const objStyle = {
-    backgroundImage: `url("/public/images/fondo${pathRandom}.png")`,
+    backgroundImage: `url("/images/fondo${pathRandom}.png")`,
   };
   return (
     <>
